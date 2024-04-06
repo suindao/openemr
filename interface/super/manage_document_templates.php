@@ -164,7 +164,7 @@ if (!empty($_POST['bn_upload'])) {
                      <h5 class="card-header"><?php echo xlt('Upload a Template'); ?></h5>
                      <div class="card-body">
                         <div class="custom-file">
-                           <input type="hidden" name="MAX_FILE_SIZE" value="4194304" />
+                           <input type="hidden" name="MAX_FILE_SIZE" value="5000" />
                            <input type="file" name="form_file" size="10" class="custom-file-input" id="customFile" />
                            <label class="custom-file-label" for="customFile"><?php echo xlt('Choose file'); ?></label>
                         </div>
