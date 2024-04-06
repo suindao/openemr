@@ -222,7 +222,7 @@ if (session_name()) {
 }
 
 $viewArgs = [
-    'title' => "Suinda Ossenkopp", //$openemr_name,
+    'title' => $openemr_name,
     'displayLanguage' => $GLOBALS["language_menu_login"] && (count($languageList) != 1),
     'defaultLangID' => $defaultLanguage['id'],
     'defaultLangName' => $defaultLanguage['language'],
