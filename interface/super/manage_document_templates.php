@@ -165,7 +165,7 @@ if (!empty($_POST['bn_upload'])) {
                      <div class="card-body">
                         <div class="custom-file">
                            <input type="hidden" name="MAX_FILE_SIZE" value="4194304" />
-                           <input type="file" name="form_file" size="40" class="custom-file-input" id="customFile" />
+                           <input type="file" name="form_file" size="10" class="custom-file-input" id="customFile" />
                            <label class="custom-file-label" for="customFile"><?php echo xlt('Choose file'); ?></label>
                         </div>
                         <div class="input-group mt-3">
